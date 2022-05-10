@@ -25,7 +25,7 @@ struct Animation {
             let randomСurve = Int.random(in: 0..<countCurve)
             let curve = Spring.AnimationCurve.allCases[randomСurve]
             let force = round(Double.random(in: 1...5) * 10) / 10
-            let duration = round(Double.random(in: 0.1...1) * 10) / 10
+            let duration = round(Double.random(in: 0.3...1) * 10) / 10
             let delay = round(Double.random(in: 0...1) * 10) / 10
             
             animations.append(Animation(preset: typeAnimation, curve: curve, force: force, duration: duration, delay: delay))
