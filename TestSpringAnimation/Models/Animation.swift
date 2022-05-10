@@ -9,11 +9,11 @@ import Spring
 
 struct Animation {
     
-    var preset: Spring.AnimationPreset
-    var curve: Spring.AnimationCurve
-    var force: Double
-    var duration: Double
-    var delay: Double
+    let preset: Spring.AnimationPreset
+    let curve: Spring.AnimationCurve
+    let force: Double
+    let duration: Double
+    let delay: Double
     
     static func getRundomAnimations() -> [Animation] {
         
