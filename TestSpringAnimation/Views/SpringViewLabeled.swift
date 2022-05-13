@@ -21,8 +21,8 @@ class SpringViewLabeled: SpringView {
     
     func setAnimatingSetingsWithAddDelay(settings: Animation, addDelay: Double) {
         
-        self.animation = settings.preset.rawValue
-        self.curve = settings.curve.rawValue
+        self.animation = settings.preset
+        self.curve = settings.curve
         self.force = settings.force
         self.delay = settings.delay + addDelay
         self.duration = settings.duration

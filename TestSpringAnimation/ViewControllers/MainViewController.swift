@@ -21,7 +21,7 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        animations = Animation.getRundomAnimations()
+        animations = dataManager.getRandomAnimation()
         settingsView()
         numberCurrentAnimation = numberNextAnimation
     }
@@ -63,9 +63,9 @@ class MainViewController: UIViewController {
                 
                 switch index {
                 case 0:
-                    labeledView.label = "Preset: \(currentAnimationForSettings.preset.rawValue)"
+                    labeledView.label = "Preset: \(currentAnimationForSettings.preset)"
                 case 1:
-                    labeledView.label = "Curve: \(currentAnimationForSettings.curve.rawValue)"
+                    labeledView.label = "Curve: \(currentAnimationForSettings.curve)"
                 case 2:
                     labeledView.label = "Force: \(currentAnimationForSettings.force)"
                 case 3:
@@ -79,7 +79,7 @@ class MainViewController: UIViewController {
         }
         
         let nextAnimationForSettings = animations[numberNextAnimation]
-        doAnimateButton.setTitle("Next animation: \(nextAnimationForSettings.preset.rawValue)", for: UIControl.State.normal)
+        doAnimateButton.setTitle("Next animation: \(nextAnimationForSettings.preset)", for: UIControl.State.normal)
     }
     
 }

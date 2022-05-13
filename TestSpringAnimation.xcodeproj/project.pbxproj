@@ -10,6 +10,7 @@
 		7656F5EA94DCEBF1FF1E8E23 /* Pods_TestSpringAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02A024ABCF6480F49FDA3BB4 /* Pods_TestSpringAnimation.framework */; };
 		E10BA303282A9576009AFBBE /* SpringViewLabeled.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10BA302282A9576009AFBBE /* SpringViewLabeled.swift */; };
 		E10BA305282A9BA0009AFBBE /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10BA304282A9BA0009AFBBE /* Animation.swift */; };
+		E1147854282E6A8300734A96 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1147853282E6A8300734A96 /* DataManager.swift */; };
 		E14968DB282A8BA7008864C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14968DA282A8BA7008864C8 /* AppDelegate.swift */; };
 		E14968DD282A8BA7008864C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14968DC282A8BA7008864C8 /* SceneDelegate.swift */; };
 		E14968DF282A8BA7008864C8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14968DE282A8BA7008864C8 /* MainViewController.swift */; };
@@ -42,6 +43,7 @@
 		E10BA302282A9576009AFBBE /* SpringViewLabeled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringViewLabeled.swift; sourceTree = "<group>"; };
 		E10BA304282A9BA0009AFBBE /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		E10BA306282AC963009AFBBE /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		E1147853282E6A8300734A96 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		E14968D7282A8BA7008864C8 /* TestSpringAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSpringAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E14968DA282A8BA7008864C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E14968DC282A8BA7008864C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 		E14968EE282A8C18008864C8 /* APP */ = {
 			isa = PBXGroup;
 			children = (
+				E1147853282E6A8300734A96 /* DataManager.swift */,
 				E14968DA282A8BA7008864C8 /* AppDelegate.swift */,
 				E14968DC282A8BA7008864C8 /* SceneDelegate.swift */,
 			);
@@ -318,6 +321,7 @@
 				E14968DB282A8BA7008864C8 /* AppDelegate.swift in Sources */,
 				E10BA305282A9BA0009AFBBE /* Animation.swift in Sources */,
 				E14968DD282A8BA7008864C8 /* SceneDelegate.swift in Sources */,
+				E1147854282E6A8300734A96 /* DataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
